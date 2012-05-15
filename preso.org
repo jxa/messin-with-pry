@@ -1,0 +1,6 @@
+* PryExceptionExplorer
+*** catches exceptions thrown
+*** even caught exceptions
+*** to rescue uncaught only
+***** EE.wrap { raise ArgumentError }
+***** or execute your program with `pry -w`
